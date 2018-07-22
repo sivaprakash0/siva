@@ -1,7 +1,4 @@
-package set1;
-
 import java.util.Scanner;
-
 public class armstrngno {
 public static void main(String[] args) {
 	Scanner in=new Scanner(System.in);
@@ -13,8 +10,7 @@ public static void main(String[] args) {
 	    mul=(c-48)*(c-48)*(c-48);
 	    sum=sum+mul;
 	}
-	if(sum==no){
-	System.out.println("yes");}
+	if(sum==no){System.out.println("yes");}
 	else{System.out.println("no");}
 }
 }
