@@ -1,7 +1,4 @@
-package gold;
-
 import java.util.Scanner;
-
 public class subtwochr {
 public static void main(String[] args) {
 	Scanner rd=new Scanner(System.in);
