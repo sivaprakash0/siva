@@ -1,7 +1,4 @@
-package gold;
-
 import java.util.Scanner;
-
 public class notsame {
 public static void main(String[] args) {
 	Scanner in=new Scanner(System.in);
@@ -13,19 +10,18 @@ public static void main(String[] args) {
 	if(wrd.length()<wrd1.length()){
 	for(int i=0;i<wrd.length();i++){
 		if(c[i]==c1[i]){
-			cn++;
+		    cn++;
 		}
-	}
-	System.out.println(wrd1.length()-cn);
+	      }
+	    System.out.println(wrd1.length()-cn);
 	}
 	else{
-			for(int i=0;i<wrd1.length();i++){
-				if(c[i]==c1[i]){
-					cn++;
-				}
-			}
-			System.out.println(wrd.length()-cn);
-			
-	}
+	 for(int i=0;i<wrd1.length();i++){
+		if(c[i]==c1[i]){
+		     cn++;
+		 }
+	       }
+	System.out.println(wrd.length()-cn);		
+        }
 }
 }
