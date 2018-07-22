@@ -7,7 +7,6 @@ public static void main(String[] args) {
 	for(int i=1;i<=nm.length();i++){	
 		String b=nm.substring(0,i);
 		String a=new StringBuffer(b).reverse().toString();
-		//System.out.println(b+" : rev is : "+a);
 		if(b.equals(a)){
 		id=i;
 		}
